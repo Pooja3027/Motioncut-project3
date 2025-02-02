@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My E-Commerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-container">
+        <!-- Womens Sneakers -->
+        <div class="product-card">
+            <div class="carousel">
+                <button class="prev" onclick="prevSlide(0)">&#10094;</button>
+                <img src="product1-1.jpg" class="product-image" id="image0">
+                <button class="next" onclick="nextSlide(0)">&#10095;</button>
+            </div>
+            <h2>Womens Sneakers</h2>
+            <p class="description">High-quality product with Better Confortableness.</p>
+            <p class="price">₹634</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Mens Watch -->
+        <div class="product-card">
+            <div class="carousel">
+                <button class="prev" onclick="prevSlide(1)">&#10094;</button>
+                <img src="product2-1.jpg" class="product-image" id="image1">
+                <button class="next" onclick="nextSlide(1)">&#10095;</button>
+            </div>
+            <h2>Mens Watch</h2>
+            <p class="description">A stylish and durable product for everyday use.</p>
+            <p class="price">₹1399</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Customised Chian -->
+        <div class="product-card">
+            <div class="carousel">
+                <button class="prev" onclick="prevSlide(2)">&#10094;</button>
+                <img src="product3-1.jpg" class="product-image" id="image2">
+                <button class="next" onclick="nextSlide(2)">&#10095;</button>
+            </div>
+            <h2>Customised Chian</h2>
+            <p class="description">An innovative product that meets your needs.</p>
+            <p class="price">₹459</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
