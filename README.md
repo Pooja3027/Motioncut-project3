@@ -46,7 +46,7 @@ By working on this project, you will:
 💡 **Quick View Popup** – Show product details in a pop-up modal  
 💡 **Checkout Page** – Simulate a shopping checkout process  
 
-## Result:
+## Output:
 ![image](https://github.com/user-attachments/assets/ef4ea127-47c9-4651-86ab-81a3bfdf2ab1)
 
 ![image](https://github.com/user-attachments/assets/17c5ff4a-9dff-46ff-a28e-d760e09b23f1)
